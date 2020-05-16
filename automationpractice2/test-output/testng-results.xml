@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="21" total="23" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-14T21:22:29 IST" name="Suite" finished-at="2020-05-14T21:27:18 IST" duration-ms="289491">
+    <groups>
+    </groups>
+    <test started-at="2020-05-14T21:22:29 IST" name="Test1" finished-at="2020-05-14T21:27:18 IST" duration-ms="289491">
+      <class name="demoMavenProject2.NavigationBar">
+        <test-method signature="Test11_testORDER_HISTORY_Page()[pri:0, instance:demoMavenProject2.NavigationBar@5dd6264]" started-at="2020-05-14T21:25:22 IST" name="Test11_testORDER_HISTORY_Page" finished-at="2020-05-14T21:27:18 IST" duration-ms="116272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test11_testORDER_HISTORY_Page -->
+      </class> <!-- demoMavenProject2.NavigationBar -->
+      <class name="demoMavenProject2.Searchfunctionality">
+        <test-method is-config="true" signature="Test1_Invoke_homepage()[pri:0, instance:demoMavenProject2.Searchfunctionality@78aab498]" started-at="2020-05-14T21:22:29 IST" name="Test1_Invoke_homepage" finished-at="2020-05-14T21:22:55 IST" duration-ms="26410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1_Invoke_homepage -->
+        <test-method signature="Test11_testORDER_HISTORY_Page()[pri:0, instance:demoMavenProject2.Searchfunctionality@78aab498]" started-at="2020-05-14T21:22:55 IST" name="Test11_testORDER_HISTORY_Page" finished-at="2020-05-14T21:25:22 IST" duration-ms="146680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test11_testORDER_HISTORY_Page -->
+      </class> <!-- demoMavenProject2.Searchfunctionality -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

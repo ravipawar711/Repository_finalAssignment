@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+   
+    <classes>
+     
+      <class name="demoMavenProject2.Searchfunctionality">
+    <methods>
+    
+    
+    <exclude name="Test1_Invoke_homepage"/>
+     <exclude name="Test2_testSearchfunction"/>
+      <exclude name="Test3_OpenSearchedProductsInNewTab"/>
+       <exclude name="Test4_AddtoCartSearchedProductsFromNewTab"/>
+        <exclude name="Test5_ShppingCartSummary_"/>
+         <exclude name="Test6_UserAuthtification"/>
+          <exclude name="Test7_ADDRESSES_verification"/>
+           <exclude name="Test8_ShippingPage"/>
+            <exclude name="Test9_SelectPaymentMethod"/>
+            <exclude name="Test10_Order_Summury_Page"/>
+         <include name="Test11_testORDER_HISTORY_Page"/>
+ 
+  </methods>
+  </class>
+      
+      <class name="demoMavenProject2.NavigationBar">
+      <methods>
+     <exclude name="Test1_Invoke_homepage"/>
+     <exclude name="Test2_testSearchfunction"/>
+      <exclude name="Test3_OpenSearchedProductsInNewTab"/>
+       <exclude name="Test4_AddtoCartSearchedProductsFromNewTab"/>
+        <exclude name="Test5_ShppingCartSummary_"/>
+         <exclude name="Test6_UserAuthtification"/>
+          <exclude name="Test7_ADDRESSES_verification"/>
+           <exclude name="Test8_ShippingPage"/>
+            <exclude name="Test9_SelectPaymentMethod"/>
+            <exclude name="Test10_Order_Summury_Page"/>
+         <include name="Test11_testORDER_HISTORY_Page"/>
+           </methods>
+        </class>
+    
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite -->
+
+
+
+	
